@@ -21,10 +21,12 @@ class ProjectHelper:
     def fill_project_form(self, project):
         wd = self.app.wd
         wd.find_element_by_name("name").send_keys(project.name)
-        wd.find_element_by_name("status").send_keys(project.status)
-        if project.inherit == 0 or project.inherit is None:
+        if project.status is not None:
+            wd.find_element_by_name("status").send_keys(project.status)
+        if project.inherit == 0 or project.inherit is not None:
             wd.find_element_by_name("inherit_global").click()
-        wd.find_element_by_name("view_state").send_keys(project.view_state)
+        if project.view_state is not None:
+            wd.find_element_by_name("view_state").send_keys(project.view_state)
         wd.find_element_by_name("description").send_keys(project.description)
 
     def delete_project_by_id(self, id):
