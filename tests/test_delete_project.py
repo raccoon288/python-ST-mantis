@@ -11,3 +11,4 @@ def test_delete_project_by_id(app, db):
     new_projects = db.get_project_list()
     old_projects.remove(random_project)
     assert sorted(old_projects, key=Project.id_or_max) == sorted(new_projects, key=Project.id_or_max)
+
