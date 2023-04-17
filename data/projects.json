@@ -1,47 +1,11 @@
 [
   {
     "py/object": "model.project.Project",
-    "name": "namey P d",
-    "status": "release",
-    "inherit": 0,
-    "view_state": "private",
-    "description": "descriptionyjUfhvmyqe",
-    "id": null
-  },
-  {
-    "py/object": "model.project.Project",
-    "name": "names",
-    "status": "obsolete",
-    "inherit": 0,
-    "view_state": "private",
-    "description": "descriptiony5abMz 3v m2Td TDLe",
-    "id": null
-  },
-  {
-    "py/object": "model.project.Project",
-    "name": "namea pYPzaK",
+    "name": "namei02W",
     "status": "stable",
     "inherit": 1,
     "view_state": "private",
-    "description": "descriptionIsj",
-    "id": null
-  },
-  {
-    "py/object": "model.project.Project",
-    "name": "name8z3Gz",
-    "status": "development",
-    "inherit": 0,
-    "view_state": "public",
-    "description": "description BMOfjAH9  j7u",
-    "id": null
-  },
-  {
-    "py/object": "model.project.Project",
-    "name": "nameTfvCYkE",
-    "status": "development",
-    "inherit": 1,
-    "view_state": "private",
-    "description": "description T",
+    "description": "descriptionF udKg8m15sC ",
     "id": null
   }
 ]
